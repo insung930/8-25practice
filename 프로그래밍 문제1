@@ -1,0 +1,30 @@
+import time
+import random
+
+#임의의 데이터를 입력
+data = ["소프트웨어", "파이썬", "전공체험", "알리미", "프로그래밍", "성균관대학교",
+        "박관종", "솦리미", "트와이스"]
+
+count = 1 #몇 문제를 맞췄는지 세어줌
+
+start_button = input("시작하려면 Enter키를 눌러주세요.")
+if start_button == '':
+    start = time.time()
+word = random.choice(data)
+
+
+#5문제를 맞추면 종료
+while (1.         ):
+    print("*문제", count)           
+    print(word)
+    user_input = input() 
+    if (2.         ):
+        print("통과!")
+        (3.           )              
+        (4.           )
+        
+end = time.time()
+print("타자시간: ", round((end - start),2),"초")
+
+다음을 완성하여라.
+(타자 연습이다.)
